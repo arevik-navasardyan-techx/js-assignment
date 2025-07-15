@@ -30,7 +30,7 @@ let grade
 
 // If else
 
-if (score>90 && score<=100){
+if (score > 90 && score <= 100) {
     grade="A"
 }
 else if (score>80 && score<=89) {
