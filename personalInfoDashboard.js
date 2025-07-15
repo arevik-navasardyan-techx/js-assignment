@@ -66,4 +66,4 @@ switch (grade) {
 }
 
 // Ternary operator
-console.log((grade =='A' ||grade =='B' || grade =='C') ? "-You passed.": "-You failed.")
+console.log((grade == 'A' || grade == 'B' || grade == 'C') ? "-You passed." : "-You failed.")
