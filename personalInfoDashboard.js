@@ -21,7 +21,7 @@ let ageNumber = 25
 console.log(ageString == ageNumber)
 console.log(ageString === ageNumber)
 
-console.log(`ageString = ${ageString} is ${typeof(ageString)}, ageNumber = ${ageNumber} is ${typeof(ageNumber)}`)
+console.log(`ageString = ${ageString} is ${typeof ageString }, ageNumber = ${ageNumber} is ${typeof ageNumber }`)
 
 // Grading
 let score = 54;
