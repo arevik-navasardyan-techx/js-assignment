@@ -1,14 +1,14 @@
 // Personal info
-const firstname='Arevik'
+const firstname = 'Arevik'
 const lastname = 'Navasardyan'
 const birthdate = 2003
 let currentYear = 2025
 let isStudent = false
-let hobbies = ['Hiking','Dancing','Reading','Watching movies','Sport']
+let hobbies = ['Hiking', 'Dancing', 'Reading', 'Watching movies', 'Sport']
 let contact = {
-    email:'navasardyanarevik@gmail.com',
+    email: 'navasardyanarevik@gmail.com',
     phone: '+37493070979',
-    city:'Yerevan'
+    city: 'Yerevan'
 }
 
 console.log(`Hi, my name is ${firstname} ${lastname}. I live in ${contact.city}.`);
@@ -16,12 +16,12 @@ console.log(`I am ${currentYear - birthdate} years old and currently I am ${isSt
 
 // Number/String
 let ageString = "25"
-let ageNumber = 25 
+let ageNumber = 25
 
 console.log(ageString == ageNumber)
 console.log(ageString === ageNumber)
 
-console.log(`ageString = ${ageString} is ${typeof(ageString)}, ageNumber = ${ageNumber} is ${typeof(ageNumber)}`)
+console.log(`ageString = ${ageString} is ${typeof (ageString)}, ageNumber = ${ageNumber} is ${typeof (ageNumber)}`)
 
 // Grading
 let score = 54;
@@ -30,25 +30,25 @@ let grade
 
 // If else
 
-if (score>90 && score<=100){
-    grade="A"
+if (score > 90 && score <= 100) {
+    grade = "A"
 }
-else if (score>80 && score<=89) {
-    grade='B'
+else if (score > 80 && score <= 89) {
+    grade = 'B'
 }
-else if (score>70 && score<=79) {
-    grade='C'
+else if (score > 70 && score <= 79) {
+    grade = 'C'
 }
-else if (score>60 && score<=69) {
-    grade='D'
+else if (score > 60 && score <= 69) {
+    grade = 'D'
 }
-else 
+else
     grade = 60;
 
 // Switch case
 
 switch (grade) {
-    case 'A': 
+    case 'A':
         console.log(`Excellent work!`)
         break;
     case 'B':
@@ -66,4 +66,4 @@ switch (grade) {
 }
 
 // Ternary operator
-console.log((grade =='A' ||grade =='B' || grade =='C') ? "-You passed.": "-You failed.")
+console.log((grade == 'A' || grade == 'B' || grade == 'C') ? "-You passed." : "-You failed.")
