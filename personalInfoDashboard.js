@@ -13,6 +13,11 @@ let contact = {
 
 console.log(`Hi, my name is ${firstname} ${lastname}. I live in ${contact.city}.`);
 console.log(`I am ${currentYear - birthdate} years old and currently I am ${isStudent ? "a student" : "not a student"}.`)
+console.log('My hobbies are:')
+for (let i = 0; i<5; i++){
+    console.log(hobbies[i]+'')
+}
+
 
 // Number/String
 let ageString = "25"
@@ -21,7 +26,7 @@ let ageNumber = 25
 console.log(ageString == ageNumber)
 console.log(ageString === ageNumber)
 
-console.log(`ageString = ${ageString} is ${typeof (ageString)}, ageNumber = ${ageNumber} is ${typeof (ageNumber)}`)
+console.log(`ageString = ${ageString} is ${typeof ageString}, ageNumber = ${ageNumber} is ${typeof ageNumber}`)
 
 // Grading
 let score = 54;
@@ -32,18 +37,19 @@ let grade
 
 if (score > 90 && score <= 100) {
     grade = "A"
-}
-else if (score > 80 && score <= 89) {
+}else
+    if (score > 80 && score <= 89) {
     grade = 'B'
-}
-else if (score > 70 && score <= 79) {
+}else
+    if (score > 70 && score <= 79) {
     grade = 'C'
-}
-else if (score > 60 && score <= 69) {
+}else
+    if (score > 60 && score <= 69) {
     grade = 'D'
+}else{
+    grade = 'F';
 }
-else
-    grade = 60;
+    
 
 // Switch case
 
